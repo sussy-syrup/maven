@@ -3,8 +3,8 @@
   <groupId>com.sussysyrup</groupId>
   <artifactId>smithees-foundry</artifactId>
   <versioning>
-    <latest>1.3.0.2</latest>
-    <release>1.3.0.2</release>
+    <latest>1.3.1</latest>
+    <release>1.3.1</release>
     <versions>
       <version>1.2.1.1</version>
       <version>1.2.1.2</version>
@@ -13,7 +13,8 @@
       <version>1.3.0</version>
       <version>1.3.0.1</version>
       <version>1.3.0.2</version>
+      <version>1.3.1</version>
     </versions>
-    <lastUpdated>20220718001008</lastUpdated>
+    <lastUpdated>20220725235707</lastUpdated>
   </versioning>
 </metadata>
