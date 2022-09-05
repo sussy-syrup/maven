@@ -1,0 +1,169 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.sussysyrup",
+    "module": "smcompat",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "smcompat-1.0.0.jar",
+          "url": "smcompat-1.0.0.jar",
+          "size": 779954,
+          "sha512": "b3f718bf7d8be2c6998e40c071a6a98f0547f4ab05781ae2c340d8bc98ccd8d0cc64f9c4858c0eefdd03279d4bfd5f8f04be07cfd65c9a38c1d7998b94fcc4c2",
+          "sha256": "bf6b4d5b9962c001116a93e628b3aa7c9fdedc17c8eeda17b97b65aefb808162",
+          "sha1": "680f55f95070d573d9b624a14fabc1cf93406553",
+          "md5": "7bc6141dc96be9c5353ae33aca85db8c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "blue.endless",
+          "module": "jankson",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.9"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.58.0+1.18.2"
+          }
+        },
+        {
+          "group": "com.sussysyrup",
+          "module": "sussyconfig",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.sussysyrup",
+          "module": "smithees-foundry",
+          "version": {
+            "requires": "1.5.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "me.shedaniel",
+          "module": "RoughlyEnoughItems-fabric",
+          "version": {
+            "requires": "8.2.471"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smcompat-1.0.0.jar",
+          "url": "smcompat-1.0.0.jar",
+          "size": 779954,
+          "sha512": "b3f718bf7d8be2c6998e40c071a6a98f0547f4ab05781ae2c340d8bc98ccd8d0cc64f9c4858c0eefdd03279d4bfd5f8f04be07cfd65c9a38c1d7998b94fcc4c2",
+          "sha256": "bf6b4d5b9962c001116a93e628b3aa7c9fdedc17c8eeda17b97b65aefb808162",
+          "sha1": "680f55f95070d573d9b624a14fabc1cf93406553",
+          "md5": "7bc6141dc96be9c5353ae33aca85db8c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "smcompat-1.0.0-sources.jar",
+          "url": "smcompat-1.0.0-sources.jar",
+          "size": 30062,
+          "sha512": "bfecc38ebdd5ad20379044f1cb386d13d23b8c4099084d3d2bde882e8c0facf74ca853c42f1bf9d37647442bf2fa330cd460685e6dd17fae17f851080a340b50",
+          "sha256": "1673393540488e09fa85a18f7fa78c443ba176f2c798cdecd94e4b148c14d401",
+          "sha1": "ff3e808f839856d08958531e17011633b2bd8e62",
+          "md5": "e6cdb17662d035230d05dc0dcdcdcb01"
+        }
+      ]
+    }
+  ]
+}
