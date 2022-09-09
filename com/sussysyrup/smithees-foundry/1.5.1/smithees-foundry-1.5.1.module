@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.sussysyrup",
+    "module": "smithees-foundry",
+    "version": "1.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "smithees-foundry-1.5.1.jar",
+          "url": "smithees-foundry-1.5.1.jar",
+          "size": 993141,
+          "sha512": "91d4ec9fea1f228539a023933ce60e0c59c034de524241981a330607f9470415381b64d1798ba64252e409eaa0900e0f7bd45883e1dc0103b85d300ec98d8030",
+          "sha256": "60f80d46a22f403fc7bb05e23921e40e7c33069c2b695bb12dfd0eaef666e3b0",
+          "sha1": "0907b36c52a6ec81ec4c27de0c84f79aae0b46af",
+          "md5": "8203b990ca6b834924cea9e6dbf17c76"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.9"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.58.0+1.18.2"
+          }
+        },
+        {
+          "group": "com.sussysyrup",
+          "module": "sussyconfig",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smithees-foundry-1.5.1.jar",
+          "url": "smithees-foundry-1.5.1.jar",
+          "size": 993141,
+          "sha512": "91d4ec9fea1f228539a023933ce60e0c59c034de524241981a330607f9470415381b64d1798ba64252e409eaa0900e0f7bd45883e1dc0103b85d300ec98d8030",
+          "sha256": "60f80d46a22f403fc7bb05e23921e40e7c33069c2b695bb12dfd0eaef666e3b0",
+          "sha1": "0907b36c52a6ec81ec4c27de0c84f79aae0b46af",
+          "md5": "8203b990ca6b834924cea9e6dbf17c76"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "smithees-foundry-1.5.1-sources.jar",
+          "url": "smithees-foundry-1.5.1-sources.jar",
+          "size": 699483,
+          "sha512": "96d38f76ccdac114c84b770bfc92764ead292e04f31f06a37e545217af5edbafdd2ce55b5d59c717ade090ba9c856869675faadef442997b3dda9d5b00563584",
+          "sha256": "8bc8ba48b2525b51a7814496d25cb92b2d7cbed81ec24eb393391f36cc8f4e6b",
+          "sha1": "2b51088f974df9c828898526e0ab800d37c0fc0f",
+          "md5": "9857476963cebf7185460c3ab2c6cd82"
+        }
+      ]
+    }
+  ]
+}
