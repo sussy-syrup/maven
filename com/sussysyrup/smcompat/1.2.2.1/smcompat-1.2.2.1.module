@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.sussysyrup",
+    "module": "smcompat",
+    "version": "1.2.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "smcompat-1.2.2.1.jar",
+          "url": "smcompat-1.2.2.1.jar",
+          "size": 79513,
+          "sha512": "c3f346ca6bdc38530f88cbf4d20f406615cdfcc7d95dadd095780beefb5df96a6334fb4bb5fd0ced94f10b74e9e1143c0ad290b017c52d331d6bc0a65feb8bf3",
+          "sha256": "f718ac5aab7818cf65caf416abe629886dca448ebb57898937b3475d9a29ba0f",
+          "sha1": "a449f7c99dc9c63bd60d582393df63ecb66995c2",
+          "md5": "a5da32b6686b58b5745bfbbbaf9cd7a2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "blue.endless",
+          "module": "jankson",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.9"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.58.0+1.18.2"
+          }
+        },
+        {
+          "group": "me.shedaniel",
+          "module": "RoughlyEnoughItems-fabric",
+          "version": {
+            "requires": "8.2.471"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smcompat-1.2.2.1.jar",
+          "url": "smcompat-1.2.2.1.jar",
+          "size": 79513,
+          "sha512": "c3f346ca6bdc38530f88cbf4d20f406615cdfcc7d95dadd095780beefb5df96a6334fb4bb5fd0ced94f10b74e9e1143c0ad290b017c52d331d6bc0a65feb8bf3",
+          "sha256": "f718ac5aab7818cf65caf416abe629886dca448ebb57898937b3475d9a29ba0f",
+          "sha1": "a449f7c99dc9c63bd60d582393df63ecb66995c2",
+          "md5": "a5da32b6686b58b5745bfbbbaf9cd7a2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "smcompat-1.2.2.1-sources.jar",
+          "url": "smcompat-1.2.2.1-sources.jar",
+          "size": 46301,
+          "sha512": "bfb69b9a049e059aa3c0f4e26aa93f4456a48558279f502e4e526fb7c36c4ef5e313940e1c72eaa0b9d8e49072c1c5b9d26624367e4cb8fe7e586224a951b349",
+          "sha256": "712d7564e2bb4c010e2f946ddc044e59893a32a78023e0479917c7771a65ffcf",
+          "sha1": "cb8a0904f67da77c05b3584d1b472ab854294e38",
+          "md5": "c9a836e5aad34d60ee3e09c422e5c47d"
+        }
+      ]
+    }
+  ]
+}
