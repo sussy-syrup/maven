@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.sussysyrup",
+    "module": "sussy-lib",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "sussy-lib-1.0.5.jar",
+          "url": "sussy-lib-1.0.5.jar",
+          "size": 46177,
+          "sha512": "b7210d482e5902a81414b4a897401abc9267f0339a08bd612b12056eb558184255b677501ba1f5a5809048b9df91ac1a7ca50f9eb61a148cdb6cf2fa580fa4fd",
+          "sha256": "5bfcefe07e455ddce6d1be750bbb3574391fd0b255c92222459d9f75f271771c",
+          "sha1": "82ef9faac370d0c0f3920404b09678bb833b9074",
+          "md5": "d0d3313d2ec0cb65e8ea5ca3c471144b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.13"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.73.0+1.19.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sussy-lib-1.0.5.jar",
+          "url": "sussy-lib-1.0.5.jar",
+          "size": 46177,
+          "sha512": "b7210d482e5902a81414b4a897401abc9267f0339a08bd612b12056eb558184255b677501ba1f5a5809048b9df91ac1a7ca50f9eb61a148cdb6cf2fa580fa4fd",
+          "sha256": "5bfcefe07e455ddce6d1be750bbb3574391fd0b255c92222459d9f75f271771c",
+          "sha1": "82ef9faac370d0c0f3920404b09678bb833b9074",
+          "md5": "d0d3313d2ec0cb65e8ea5ca3c471144b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sussy-lib-1.0.5-sources.jar",
+          "url": "sussy-lib-1.0.5-sources.jar",
+          "size": 36398,
+          "sha512": "b56425d34e22b85ba66b7e4b678d90a9d5fc1c1902c32b5294c4a05875946ff5efe151d320b153b39bf7f2e3c41dcd935f1249f92a65b92fd33114c97be9941e",
+          "sha256": "0fe89535807afe8cf64685d726b1c1a6f139a96d21bea45338bc0e2c6df28043",
+          "sha1": "5e3df9342da6bb33901ad428707ad562be1bc89d",
+          "md5": "3990958fe41ec3e02219228c20d1f1e2"
+        }
+      ]
+    }
+  ]
+}
