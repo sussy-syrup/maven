@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.sussysyrup",
+    "module": "smcompat",
+    "version": "1.2.2.1-1.19.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "smcompat-1.2.2.1-1.19.3.jar",
+          "url": "smcompat-1.2.2.1-1.19.3.jar",
+          "size": 79459,
+          "sha512": "3fca847162f12eaa1074b3c9f9e85d6e5a7bfb17eb652a994454c41c269b53f7d0a70439f0d74dc1dd46adf5ed69cfc181b3bfa3e27caf7e70c4314b0e184ad4",
+          "sha256": "41bdb07cca27d357347d3e5ea557f5fca7cce1fda1962f486ff395dd11d01aa1",
+          "sha1": "2f297eb1e9ce2c152f8952c66a78bafc4d9c4936",
+          "md5": "a45cb23f4282b63823f38312acd07b70"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "blue.endless",
+          "module": "jankson",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.75.1+1.19.3"
+          }
+        },
+        {
+          "group": "me.shedaniel",
+          "module": "RoughlyEnoughItems-fabric",
+          "version": {
+            "requires": "10.0.592"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smcompat-1.2.2.1-1.19.3.jar",
+          "url": "smcompat-1.2.2.1-1.19.3.jar",
+          "size": 79459,
+          "sha512": "3fca847162f12eaa1074b3c9f9e85d6e5a7bfb17eb652a994454c41c269b53f7d0a70439f0d74dc1dd46adf5ed69cfc181b3bfa3e27caf7e70c4314b0e184ad4",
+          "sha256": "41bdb07cca27d357347d3e5ea557f5fca7cce1fda1962f486ff395dd11d01aa1",
+          "sha1": "2f297eb1e9ce2c152f8952c66a78bafc4d9c4936",
+          "md5": "a45cb23f4282b63823f38312acd07b70"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "smcompat-1.2.2.1-1.19.3-sources.jar",
+          "url": "smcompat-1.2.2.1-1.19.3-sources.jar",
+          "size": 46292,
+          "sha512": "bd04e97b28f7d911e6794fc7873b9e81791a2b98f2e73e21b9f0b3468fd860d718aacfe56563226fc1e86b39d92858989e4b4c9440794f3eca88728b892f381e",
+          "sha256": "1914a12aca879730e42fdb4fe7110700dfd81c575ada8a66073ed69d50becb0c",
+          "sha1": "280e9f2c1c14af869040c3140f1aed83b1602cb5",
+          "md5": "9589039ae630fb8c796845c70bcd5b83"
+        }
+      ]
+    }
+  ]
+}
